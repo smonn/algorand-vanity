@@ -6,6 +6,7 @@ Inspired by https://algovanity.com, this is a local/offline only option written 
 
 ```bash
 git clone git@github.com:smonn/algorand-vanity.git
+cd algorand-vanity
 go get
 go build
 ./algorand-vanity '^SOMEREGEX'
