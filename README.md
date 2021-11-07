@@ -20,6 +20,10 @@ go build
 go install github.com/smonn/algorand-vanity
 ```
 
+### Option 3, download latest release
+
+Visit the [releases page](https://github.com/smonn/algorand-vanity/releases) and download the latest release for your platform.
+
 The first param should be a regular expression. Remember that an Algorand address is a base32 string matching `^[A-Z2-7]{58}$`. So any pattern that's a subset of that should work.
 
 **Pro-tip: run multiple instances of this to speed things up further!**
