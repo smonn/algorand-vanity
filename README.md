@@ -31,6 +31,4 @@ algorand-vanity '^ABC[2-7]'
 
 The first param should be a regular expression. Remember that an Algorand address is a base32 string matching `^[A-Z2-7]{58}$`. So any pattern that's a subset of that should work.
 
-**Pro-tip: run multiple instances of this to speed things up further!**
-
 > I'm a beginner with Go so I'm sure this could be improved a lot further. Happy hunting!
