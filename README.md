@@ -1,6 +1,6 @@
 # algorand-vanity
 
-Inspired by https://algovanity.com, this is a local/offline only option written in Go, and a lot faster. On my 2019 MacBook Pro I get about 50k addresses per second.
+Inspired by https://algovanity.com, this is a local/offline only option written in Go, and a lot faster. On my 2019 MacBook Pro I get about ~300k addresses per second.
 
 ## Install
 
