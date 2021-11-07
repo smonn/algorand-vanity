@@ -4,12 +4,20 @@ Inspired by https://algovanity.com, this is a local/offline only option written 
 
 ## Usage
 
+### Option 1, clone and build yourself
+
 ```bash
 git clone git@github.com:smonn/algorand-vanity.git
 cd algorand-vanity
 go get
 go build
 ./algorand-vanity '^SOMEREGEX'
+```
+
+### Option 2, go install
+
+```bash
+go install github.com/smonn/algorand-vanity
 ```
 
 The first param should be a regular expression. Remember that an Algorand address is a base32 string matching `^[A-Z2-7]{58}$`. So any pattern that's a subset of that should work.
