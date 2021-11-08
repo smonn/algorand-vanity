@@ -16,7 +16,7 @@ go build
 ### Option 2, go install
 
 ```bash
-go install github.com/smonn/algorand-vanity
+go install github.com/smonn/algorand-vanity@latest
 ```
 
 ### Option 3, download latest release
