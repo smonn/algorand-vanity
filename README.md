@@ -15,6 +15,8 @@ go build
 
 ### Option 2, go install
 
+This assumes you have your `~/go/bin` folder in your `PATH`.
+
 ```bash
 go install github.com/smonn/algorand-vanity@latest
 ```
